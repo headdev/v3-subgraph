@@ -1,7 +1,7 @@
 import { Address, BigDecimal, BigInt } from '@graphprotocol/graph-ts'
 
-import { StaticTokenDefinition } from './staticTokenDefinition'
 import { OPTIMISM_POOL_MAPPINGS } from '../backfill/poolMappings'
+import { StaticTokenDefinition } from './staticTokenDefinition'
 
 export enum ChainId {
   ARBITRUM_ONE = 42161,
